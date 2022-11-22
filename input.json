@@ -1,17 +1,17 @@
 {
     "token": "token GH_TOKEN",
     "slsa": {
-        "repository": "dn-org/slsa",
+        "repository": "scribe-security/guys-slsa-test",
         "protected_branch": "main",
         "accept_retained_indefinitely": true,
-        "repository_url": "https://github.com/dn-org/slsa",
+        "repository_url": "https://github.com/scribe-security/guys-slsa-test",
         "build_script": "build.yml",
         "build_service": "GitHub Actions",
         "provenance": "a.prov",
         "reason_provenance_authenticated": "a.sig"
     },
     "commits": {
-        "dn-org/slsa": {
+        "scribe-security/guys-slsa-test": {
             "history": ["8eda247e57ca4202a814f5efb28d9e7a5de12cdf"]
         }
     }
