@@ -50,8 +50,8 @@ jobs:
           force: true
           scribe-enable: true
           product-key: ${{ secrets.SCRIBE_DEV_PRODUCT_KEY_IGOR_GITHUBAPPIGORTEST1 }}
-          scribe-client-id: ${{ secrets.SCRIBE_DEV_M2M_CLIENT_ID_IGOR }}
-          scribe-client-secret: ${{ secrets.SCRIBE_DEV_M2M_CLIENT_SECRET_IGOR }}
+          scribe-client-id: 72Uc06W3XkZnApGRQWNXwLSBM1E7CWPa
+          scribe-client-secret: F2jSew5vEsZ6Er8DbJgrKbzR7pDTqfHJr3yycloltScBH-j73RY-DGZgPfg-G1pp
           scribe-url: ${{ env.SCRIBE_URL }}
           scribe-login-url: ${{ env.SCRIBE_LOGIN_URL }}
           scribe-audience: ${{ env.SCRIBE_AUDIENCE }}
