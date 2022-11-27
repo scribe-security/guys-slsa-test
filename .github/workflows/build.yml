@@ -49,9 +49,9 @@ jobs:
           verbose: 2
           force: true
           scribe-enable: true
-          product-key: ${{ secrets.SCRIBE_DEV_PRODUCT_KEY }}
-          scribe-client-id: ${{ secrets.SCRIBE_DEV_M2M_CLIENT_ID }}
-          scribe-client-secret: ${{ secrets.SCRIBE_DEV_M2M_CLIENT_SECRET }}
+          product-key: ${{ secrets.SCRIBE_DEV_PRODUCT_KEY_IGOR_GITHUBAPPIGORTEST1 }}
+          scribe-client-id: ${{ secrets.SCRIBE_DEV_M2M_CLIENT_ID_IGOR }}
+          scribe-client-secret: ${{ secrets.SCRIBE_DEV_M2M_CLIENT_SECRET_IGOR }}
           scribe-url: ${{ env.SCRIBE_URL }}
           scribe-login-url: ${{ env.SCRIBE_LOGIN_URL }}
           scribe-audience: ${{ env.SCRIBE_AUDIENCE }}
@@ -63,7 +63,7 @@ jobs:
           type: docker
           target: 'date:latest'
           format: statement-slsa
-          product-key: ${{ secrets.SCRIBE_DEV_PRODUCT_KEY }}
+          product-key: ${{ secrets.SCRIBE_DEV_PRODUCT_KEY_IGOR_GITHUBAPPIGORTEST1 }}
           verbose: 2
           force: true
           
