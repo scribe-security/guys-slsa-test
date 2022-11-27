@@ -8,4 +8,4 @@ Usage:
 
 * Fork the repo and create your secrets.
 * Secrets needed are the ScribeHub triplet + a GH Token you need to create with repo permissions (the automatic GH_TOKEN will not do.
---1111
+--112
