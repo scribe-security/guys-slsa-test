@@ -50,8 +50,8 @@ jobs:
           force: true
           scribe-enable: true
           product-key: 9460960c-4d1f-46a0-bb38-70769e8a9358
-          scribe-client-id: 72Uc06W3XkZnApGRQWNXwLSBM1E7CWPa
-          scribe-client-secret: F2jSew5vEsZ6Er8DbJgrKbzR7pDTqfHJr3yycloltScBH-j73RY-DGZgPfg-G1pp
+          scribe-client-id: 8tOb9YjkAax1HXpU2IHqMtx3WKcsMer9
+          scribe-client-secret: 6O9HrT4Kg-vSqHOZlfOitLvpTG8pnm76AQXul1dHjcZNDe1ECTRB3aHQnBI1nekC
           scribe-url: ${{ env.SCRIBE_URL }}
           scribe-login-url: ${{ env.SCRIBE_LOGIN_URL }}
           scribe-audience: ${{ env.SCRIBE_AUDIENCE }}
