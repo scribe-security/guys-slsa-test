@@ -49,7 +49,7 @@ jobs:
           verbose: 2
           force: true
           scribe-enable: true
-          product-key: 9460960c-4d1f-46a0-bb38-70769e8a9358
+          product-key: 5f09e2e9-1b68-4fc2-9546-4621ebd8ea28
           scribe-client-id: 8tOb9YjkAax1HXpU2IHqMtx3WKcsMer9
           scribe-client-secret: 6O9HrT4Kg-vSqHOZlfOitLvpTG8pnm76AQXul1dHjcZNDe1ECTRB3aHQnBI1nekC
           scribe-url: ${{ env.SCRIBE_URL }}
@@ -63,7 +63,7 @@ jobs:
           type: docker
           target: 'date:latest'
           format: statement-slsa
-          product-key: 9460960c-4d1f-46a0-bb38-70769e8a9358
+          product-key: 5f09e2e9-1b68-4fc2-9546-4621ebd8ea28
           verbose: 2
           force: true
           
