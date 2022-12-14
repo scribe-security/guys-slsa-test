@@ -1,4 +1,4 @@
-name: Igor's githubapp (staging)
+name: Anthon's githubapp (staging)
 on: 
     push:
     workflow_dispatch:
