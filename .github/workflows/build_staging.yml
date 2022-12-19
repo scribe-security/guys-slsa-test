@@ -1,6 +1,6 @@
 name: Igor's githubapp (staging) # comment1
 on: 
-    push:
+#    push:
     workflow_dispatch:
 
 env:
