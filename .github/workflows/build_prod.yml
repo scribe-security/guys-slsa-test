@@ -52,9 +52,9 @@ jobs:
           product-key: f9d47033-693e-41fd-87b2-ddb2922577ed
           scribe-client-id: NvYfX1ggzOxm5RJLLQ8o3eKq7qLhpvnmO
           scribe-client-secret: RBORO7NbbYiyll-zltUxRvx4_4k0dAa3as5rdrPThPCyfqYJrBkl37TfmqpnoxBFv
-          scribe-url: ${{ env.SCRIBE_URL }}
-          scribe-login-url: ${{ env.SCRIBE_LOGIN_URL }}
-          scribe-audience: ${{ env.SCRIBE_AUDIENCE }}
+#          scribe-url: ${{ env.SCRIBE_URL }}
+#          scribe-login-url: ${{ env.SCRIBE_LOGIN_URL }}
+ #         scribe-audience: ${{ env.SCRIBE_AUDIENCE }}
 
       - name: Generate slsa prov statement
         id: gensbom_slsa
