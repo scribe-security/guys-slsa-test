@@ -1,4 +1,4 @@
-name: Igor's githubapp (staging) # comment1
+name: Igor's githubapp (prod!!!)
 on: 
     push:
     workflow_dispatch:
